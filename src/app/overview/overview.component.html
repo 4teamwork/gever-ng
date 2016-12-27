@@ -1,0 +1,12 @@
+<kendo-grid [data]="dossiers">
+    <kendo-grid-column field="description">
+        <template kendoHeaderTemplate let-column let-columnIndex="columnIndex">
+          {{column.field}}
+        </template>
+    </kendo-grid-column>
+     <kendo-grid-column field="title">
+        <template kendoHeaderTemplate let-column let-columnIndex="columnIndex">
+          {{column.field}}
+        </template>
+    </kendo-grid-column>
+</kendo-grid>
